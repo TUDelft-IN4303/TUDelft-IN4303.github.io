@@ -130,6 +130,20 @@ If your start symbols are not defined in the main SDF3 module, you might need to
 Typically, the pretty-printed code lacks proper indentation and line breaks.
 You can fix this by improving your templates in the syntax definition.
 The pretty-printer follows the indentation and line breaks from the syntax definition.
+So any formatting that you add to your templates will be reflected in the product of the pretty-printer.
+For instance, the following syntax-definition template:
+```
+Gammer.Lexial =
+<lexical syntax {
+ <Production*>
+}>
+```
+will transform `lexical syntax {number = "true"}` to the following pretty-printed product:
+```
+lexical syntax {
+ number = "true"
+}
+```
 
 You should improve your syntax definition in order to get readable code with a consistent indentation.
 You might read on [indent styles](http://en.wikipedia.org/wiki/Indent_style) for some inspiration.
