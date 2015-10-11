@@ -131,17 +131,25 @@ Typically, the pretty-printed code lacks proper indentation and line breaks.
 You can fix this by improving your templates in the syntax definition.
 The pretty-printer follows the indentation and line breaks from the syntax definition.
 So any formatting that you add to your templates will be reflected in the product of the pretty-printer.
-For instance, the following MiniJava template:
+For instance, by changing the following MiniJava template:
+```
+Statement.While = <while (<Exp>) <Statement>>
+```
+Into a template which includes layout:
 ```
 Statement.While =
 <
-while (<Exp>)
+while ( <Exp> )
     <Statement>
 >
 ```
-will transform `while(true) a = 5;` to the following pretty-printed product:
+This will transform your formatted program code:
 ```
-while (true)
+while (true) a = 5;
+```
+Into the following pretty-printed product:
+```
+while ( true )
     a = 5;
 ```
 
