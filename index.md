@@ -11,6 +11,8 @@ image:
 
 ## Course Contents   
 
+Note: This is the website for the 2015-2016 edition of the course. Find the website for the 2016-2017 edition at <https://tudelft-in4303-2016.github.io/>.
+
 Compilers translate the source code of programs in a high-level programming language into executable (virtual) machine code. Nowadays, compilers are typically integrated into development environments providing features like syntax highlighting, content assistance, live error reporting, and continuous target code generation. This course is about the efficient construction of compilers and their integration in the IDE. Its [lectures](lectures) are organised in three parts:
 
 The first part focuses on declarative specification of compiler components as supported by state-of-the-art tools for compiler construction, including lexical syntax, context-free syntax, static semantics, and code generation.
