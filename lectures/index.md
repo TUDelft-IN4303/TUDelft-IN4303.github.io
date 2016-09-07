@@ -18,7 +18,31 @@ In the second topic, we address techniques for the compilation and runtime envir
 
 In the final topic, we take a closer look on the inside working of compiler components and their generators. In particular, we study parsing algorithms and parser generation.
 
-## Schedule 2015/16
+## Schedule 2016-2017
+
+* Tue  9 September, 8:45,  Aula CZ A:  [Software Languages](introduction/software-languages)
+* Tue  9 September, 10:45, Aula CZ A:  [Formal Grammars](specification/formal-grammars)
+* Tue 13 September, 17:45, EWI Pi: [Syntax Definition](specification/syntax-definition)
+
+topic schedule from this point is tentati
+
+* Tue 20 September, 17:45, EWI Pi: [Imperative & Object-Oriented Programming Languages](introduction/imperative-oo-pl)
+* Tue 27 September, 17:45, EWI Pi: [Static Analysis](specification/static-analysis)
+* Tue  4 October,   17:45, EWI Pi: [Term Rewriting](specification/term-rewriting) 
+* Tue 11 October,   17:45, EWI Pi: [Dataflow Analysis](techniques/dataflow-analysis)
+* Tue 18 October,   17:45, EWI Pi: [Register Allocation](techniques/register-allocation)
+* Tue 25 October,   17:45, EWI Pi: [Garbage Collection](techniques/garbage-collection)
+* Tue 15 November,  17:45, EWI Pi: [Virtual Machines](techniques/virtual-machines)
+* Tue 22 November,  17:45, EWI Pi: [Domain-Specific Languages](introduction/domain-specific-languages)
+* Tue 29 November,  17:45, EWI Pi: [Dynamic Semantics](specification/dynamic-semantics)
+* Tue  6 December,  17:45, EWI Pi: [Lexical Analysis](generation/lexical-analysis)
+* Tue 13 December,  17:45, EWI Pi: [LL Parsing](generation/ll-parsing)
+* Tue 20 December,  17:45, EWI Pi: [LR Parsing](generation/lr-parsing)
+* Tue 10 January,   
+* Tue 17 January,   17:45, EWI Pi: exam preparation
+   
+<!--
+## Schedule 2015-2016
 
 * Tue  8 September, 13:45, CT-CZ F:  [Software Languages](introduction/software-languages)
 * Tue  8 September, 15:45, CT-CZ F:  [Formal Grammars](specification/formal-grammars)
@@ -36,4 +60,5 @@ In the final topic, we take a closer look on the inside working of compiler comp
 * Tue  8 December,  13:45, CT-CZ C: [LL Parsing](generation/ll-parsing)
 * Tue 15 December,  13:45, CT-CZ C: [LR Parsing](generation/lr-parsing)
 * Tue  5 January,   13:45, CT-CZ C: exam preparation
+-->
 
