@@ -24,7 +24,7 @@ In the final topic, we take a closer look on the inside working of compiler comp
 * Tue  9 September, 10:45, Aula CZ A:  [Formal Grammars](specification/formal-grammars)
 * Tue 13 September, 17:45, EWI Pi: [Syntax Definition](specification/syntax-definition)
 
-topic schedule from this point is tentati
+topic schedule from this point is tentative
 
 * Tue 20 September, 17:45, EWI Pi: [Imperative & Object-Oriented Programming Languages](introduction/imperative-oo-pl)
 * Tue 27 September, 17:45, EWI Pi: [Static Analysis](specification/static-analysis)
