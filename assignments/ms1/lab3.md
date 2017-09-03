@@ -130,6 +130,28 @@ If your start symbols are not defined in the main SDF3 module, you might need to
 Typically, the pretty-printed code lacks proper indentation and line breaks.
 You can fix this by improving your templates in the syntax definition.
 The pretty-printer follows the indentation and line breaks from the syntax definition.
+So any formatting that you add to your templates will be reflected in the product of the pretty-printer.
+For instance, by changing the following MiniJava template:
+```
+Statement.While = <while (<Exp>) <Statement>>
+```
+Into a template which includes layout:
+```
+Statement.While =
+<
+while ( <Exp> )
+    <Statement>
+>
+```
+This will transform your formatted program code:
+```
+while (true) a = 5;
+```
+Into the following pretty-printed product:
+```
+while ( true )
+    a = 5;
+```
 
 You should improve your syntax definition in order to get readable code with a consistent indentation.
 You might read on [indent styles](http://en.wikipedia.org/wiki/Indent_style) for some inspiration.
